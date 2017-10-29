@@ -1,0 +1,16 @@
+
+//****************************************************** 
+//***** MAIN PROGRAM EXTERNAL REFERENCE FOR C CODE    **
+//****************************************************** 
+extern  void    LOAD_HXT_REFERENCE();           //;load HXT varies
+
+
+
+
+
+
+
+
+
+
+

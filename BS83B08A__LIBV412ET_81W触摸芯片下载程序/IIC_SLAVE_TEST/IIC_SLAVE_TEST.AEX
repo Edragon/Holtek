@@ -1,0 +1,3 @@
+extern _IIC_SLAVE_TEST_INITIAL:near
+extern _IIC_SLAVE_TEST:near
+

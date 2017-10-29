@@ -1,0 +1,16 @@
+
+;;****************************************************** 
+;;***** MAIN PROGRAM EXTERNAL REFERENCE FOR ASM CODE   * 
+;;****************************************************** 
+EXTERN  _LOAD_HXT_REFERENCE             :NEAR   ;Load HXT varies
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+
+//************************************************* 
+//***** LIBRARY EXTERNAL REFERENCE FOR C CODE     * 
+//************************************************* 
+//;-SUBROUTIN
+extern  void    BS83B08A_LIBV412_INITIAL();     //;library initial
+extern  void    BS83B08A_LIBV412();             //;scan all touch input
+extern  void    LIBRARY_RESET();                //;Library Reset          
+extern  void    GET_KEY_BITMAP();               //;get key status with level
+extern  void    GET_ENV_VALUE();                //;get environment value
+extern  void    GET_REF_VALUE();                //;get reference value
+extern  void    GET_RCC_VALUE();                //;get internal CAP. value
+extern  void    GET_LIB_VER();                  //;get library version
+extern  void    GET_KEY_AMOUNT();               //;get key amount value
+extern  void    CHECK_KEY_WAKEUP();             //;get key amount value
+//;-DATA DEFINE                
+#pragma norambank
+extern  unsigned char   DATA_BUF[];             //;temperary data RAM
+extern  unsigned char   GLOBE_VARIES[];         //;globe varies which define in HXT_REFERENCE.INC
+extern  unsigned char   KEY_FREQ[];             //;key Environment data RAM
+extern  unsigned char   KEY_REF[];              //;key Reference data RAM
+extern  unsigned char   KEY_STATUS[];           //;                       
+extern  unsigned char   TKS_TIME_BASE[];        //;                      
+extern  unsigned char   STANDBY_TIME[];         //;                      
+extern  unsigned char   KEY_IO_SEL[];           //;
+extern  unsigned char   SAMPLE_TIMES[];         //;
+extern  unsigned char   KEY_DATA[];             //;
+//;-FLAG DEFINE                           
+#pragma rambank0
+extern  bit     SCAN_CYCLEF;                    //;scan one cycle flag
+extern  bit     ANY_KEY_PRESSF;                 //;any key pressed flag
+extern  bit     TKS_ACTIVEF;                    //;library running
+extern  bit     TKS_63MSF;                      //;63ms time flag
+extern  bit     TKS_250MSF;                     //;250ms time flag
+extern  bit     TKS_500MSF;                     //;500ms time flag
+extern  bit     FORCE_CALIBRATEF;               //;force all key re-calibrate flag
+                                                  
+                                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

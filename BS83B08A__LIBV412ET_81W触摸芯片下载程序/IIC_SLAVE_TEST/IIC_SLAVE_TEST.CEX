@@ -1,0 +1,2 @@
+void IIC_SLAVE_TEST_INITIAL();
+void IIC_SLAVE_TEST();
